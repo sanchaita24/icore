@@ -1,0 +1,275 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+ 
+
+
+.container {
+    height: 50vh;
+}
+
+.carousel,
+.carousel-inner,
+.carousel-item,
+.carousel-item img {
+    height: 500px;
+    /* or use 50vh */
+}
+
+#carouselExampleInterval {
+    position: relative;
+
+}
+
+
+#carouselExampleInterval::after {
+    content: " ";
+    width: 100%;
+    height: 100%;
+    /* background: linear-gradient(to right, #355253, #9dbbbb3b, #355253); */
+    position: absolute;
+    top: 0;
+}
+
+
+.line {
+    position: absolute !important;
+    margin: -10rem 30rem !important;
+    color: white !important;
+}
+
+.enroll {
+    position: absolute;
+    top: 21rem;
+    left: 31rem;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.border {
+    border: 1px solid #000;
+    background: #0000ff1c;
+    color: #fff;
+}
+
+.btn1 {
+    text-decoration: none;
+    background-color: blue;
+    border: none;
+    color: #fff;
+    border-radius: 11px;
+    width: 22%;
+    height: 33px;
+}
+
+.cards,
+.card {
+    display: flex;
+    padding: 13px 3px;
+    margin: 12px 32px;
+}
+
+.text_style {
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* min-height: 100vh; */
+    display: inline-flex;
+    position: absolute;
+    top: 17rem;
+    left: 31rem;
+}
+
+
+.fixed {
+    font-size: 34px;
+}
+
+.wrapper,
+.moving {
+    margin-left: 12px;
+    height: 66px;
+    line-height: 66px;
+    overflow: hidden;
+}
+
+
+
+.moving li {
+    list-style: none;
+    color: rgb(243, 248, 248);
+    font-size: 24px;
+    font-weight: 100%;
+    animation: slide 4.6s steps(3) infinite;
+    top: 0;
+    position: relative;
+}
+
+
+@keyframes slide {
+    100% {
+        top: -198px;
+
+    }
+
+}
+
+.moving li span {
+    position: relative;
+
+}
+
+.moving li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    /* background: #fff; */
+    background: #9dbbbb3b;
+    border-left: 2px solid rgba(158, 151, 151, 0.151);
+    animation: typing 1.5s steps(10) infinite;
+}
+
+@keyframes typing {
+    100% {
+        left: 100%;
+        margin: 0 -35px 0 35px;
+
+    }
+}
+
+/* secound */
+
+.secound {
+    width: 88%;
+    margin: 77px 53px;
+    background: aliceblue;
+}
+
+.video {
+    padding: 22px 11px;
+    /* width: 50%; */
+
+}
+
+/* user */
+.user {
+    display: flex;
+    margin: 55px 88px;
+}
+
+.user_card {
+    border: none;
+    height: 22rem;
+}
+
+
+/* brnd logo */
+
+
+.third {
+    margin: 0 auto;
+}
+
+.logos {
+    padding: 22px 22px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.logo_slide {
+    display: inline-block;
+    animation: slide 9s infinite linear;
+
+}
+
+.logos,
+.logo_slide img {
+    height: 55px;
+    margin: -12px 44px;
+}
+
+
+@keyframes slide {
+    from {
+        transform: translatex(0);
+    }
+
+    to {
+        transform: translatex(-100%);
+    }
+}
+
+.forth {
+    width: 88%;
+    height: 66%;
+    background-color: #e1ebeb;
+    margin: 0 auto;
+    display: flex;
+}
+.forth img{
+    /* width: 65%; */
+    background: transparent;
+}
+
+.brand_text {
+    padding: 44px 0;
+}
+
+.brand_btn {
+    width: 44%;
+   margin: 10px 199px;
+}
+
+/* -----------------------------------------------footer----------------------------------------------------------------------- */
+ .border-top{
+    width: 60%;
+    margin: 12px auto;
+    opacity: 0.3;
+ }
+
+ .footer-container{
+    height: 60vh;
+ }
+
+.icons{
+    position: absolute;
+    margin-top: -10rem;
+    margin-left: 30rem;
+    margin-right: 0;
+}
+
+.icon-items{
+    display: flex;
+}
+
+.icon-item{
+    font-size: 33px;
+    list-style: none;
+    width: 2rem;
+padding: 3px 32px;
+}
+
+.text_decoration{
+    text-decoration: none;
+}
