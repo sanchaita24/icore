@@ -17,63 +17,65 @@
 </head>
 
 <body>
+    <?php include "layout/hero_nav.php";?>
     <?php include "layout/nav.php" ;?>
 
     <!-- sliders -->
 
     <div class="container-fluid p-0" id="container">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="image mx-5">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5eQYXSxI8fnvfL_ZUlWJS8rAuMc9MyI57ojl7VTqlDRp_8L3JRGhZuwNXReNgnL2HkL8&usqp=CAU"
-                        class="d-block w-100" alt="img2">
-                </div>
-                <div class="text">
-                    <h2 class="text-center">MAKE YOUR CAREEAR WITH US </h2>
-                    <ul class="text-list">
-                        <il><button class="btn btn-primary">CALL REQUEST</button></il>
-                        <il><button class="btn btn-primary">ENROLL</button></il>
-                    </ul>
-                </div>
-            </div>
 
-            <div class="col-md-6">
-                <!-- form -->
-                <section class="form" id="contact-form">
-                    <form action="#">
-                        <h3 class="text-center text-light">Query Box</h3>
-                        <div class="mb-3 mx-3">
-                            <label for="email" class="form-label">Email address</label>
-                            <input type="email" class="form-control" name="email" placeholder="name@example.com">
-                        </div>
-
-                        <div class="mb-3 mx-5">
-                            <label for="text" class="form-label">Example textarea</label>
-                            <textarea class="form-control" name="text" rows="3"></textarea>
-                        </div>
-
-                        <div class="mb-3 mx-3">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <label for="mobile" class="form-label">Mobile number</label>
-                                    <input type="text" class="form-control" id="mobile" name="mobile"
-                                        placeholder="Mobile">
-                                </div>
-                                <div class="col-md-6">
-                                    <label for="pin" class="form-label">Pin code</label>
-                                    <input type="text" class="form-control" id="pin" name="pin" placeholder="Pin code">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="text-center" id="sbt">
-                            <button type="submit" class="btn btn-light mb-3" id="sbt-btn">Submit</button>
-                        </div>
-
-                    </form>
-                </section>
-            </div>
+        <div class="image mx-5">
+            <img src="https://esmetwp.com/educa/wp-content/uploads/sites/5/2016/07/news-heading-bg.jpg"
+                class="d-block w-100" alt="img2">
         </div>
+        <div class="text">
+            <h2 class="text-center">Contact Us</h2>         
+                <ul class="text-list">
+                    <li><button class="btn btn-primary">CALL REQUEST</button></li>
+                    <li><button class="btn btn-primary">ENROLL</button></li>
+                </ul>
+        </div>
+    </div>
 
+    <!-- Contact Info Section -->
+    <!-- email contact -->
+    <div class="container py-5" style="background-color:#5e99d4;">
+        <div class="row g-4">
+
+            <!-- Address -->
+            <div class="col-md-4 border-end">
+                <div class="d-block align-items-center mx-5">
+                    <i class="fa fa-map-marker fa-2x text-warning me-3"></i>
+                    <div>
+                        <h5 class="fw-bold mb-1 mt-3">Address Info</h5>
+                        <p class="mb-0 text-muted">Bloomfield Way Stockton, Springs ME 04981</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Email -->
+            <div class="col-md-4 border-end">
+                <div class="d-block align-items-center mx-5">
+                    <i class="fa fa-envelope fa-2x text-warning me-1"></i>
+                    <div>
+                        <h5 class="fw-bold mb-1 mt-3">Email Info</h5>
+                        <p class="mb-0 text-muted">educa@university.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Phone -->
+            <div class="col-md-4">
+                <div class="d-block align-items-center mx-5">
+                    <i class="fa fa-phone fa-2x text-warning me-3"></i>
+                    <div>
+                        <h5 class="fw-bold mb-1 mt-3">Phone Number</h5>
+                        <p class="mb-0 text-muted">+1 (23) 207 0567 2120</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </div>
 
 
@@ -81,27 +83,61 @@
     <section class="location mt-5" id="live-location">
         <div class="row">
             <div class="col-md-6">
-                <div class="map-box text-center">
+                <div class="map-box">
+                    <h5 class="d-flex align-items-center"><span class="border-start border-4 border-warning px-3"
+                            style="height: 24px;">Location Map</span></h5>
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14631.262957086974!2d87.28670954704285!3d23.5391288287389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f771f93fbd934d%3A0x5726ef1ea24f3a69!2sCity%20Center%2C%20Durgapur%2C%20West%20Bengal%20713216!5e0!3m2!1sen!2sin!4v1750787238611!5m2!1sen!2sin"
-                        width="600" height="440" style="border:0;" allowfullscreen="" loading="lazy"
+                        style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <h3 class="text-center text-light mt-5">Location Address</h3>
-                <div class="address text-center text-light">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint repellat sapiente ea.
-                    <div class="mno">
-                        <strong>+91 12344-6789</strong>
-                    </div>
+
 
                 </div>
+
+            </div>
+            <div class="col-md-6">
+                <!-- form -->
+                <section class="form" id="contact-form">
+                    <h5 class="d-flex align-items-center"><span class="border-start border-4 border-warning px-3"
+                            style="height: 24px;">Contact Us</span></h5>
+                    <form action="#" class="contact_form">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control border-1 border-secondary" name="email"
+                                placeholder="name@example.com">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="text" class="form-label">Example textarea</label>
+                            <textarea class="form-control border-1 border-secondary" name="text" rows="3"></textarea>
+                        </div>
+
+                        <div class="mb-3">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label for="mobile" class="form-label">Mobile number</label>
+                                    <input type="text" class="form-control border-1 border-secondary" id="mobile"
+                                        name="mobile" placeholder="Mobile">
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="pin" class="form-label">Pin code</label>
+                                    <input type="text" class="form-control border-1 border-secondary" id="pin"
+                                        name="pin" placeholder="Pin code">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center" id="sbt">
+                            <button type="submit" class="btn mb-3" id="sbt-btn">Submit</button>
+                        </div>
+
+                    </form>
+                </section>
             </div>
         </div>
 
 
     </section>
+
 
 
 

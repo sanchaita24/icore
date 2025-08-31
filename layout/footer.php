@@ -6,12 +6,14 @@
             <div class="col-lg-3 mb-7 mb-lg-0">
                 <!-- Logo -->
                 <div class="mb-5">
-                    <a class="navbar-brand" href="./index.html" aria-label="Space">
-                        <img class="navbar-brand-logo" src="./images/L.png" alt="Image Description" width="160px">
+                    <a class="navbar-brand text-light mx-5" href="./index.html" aria-label="Space">
+                        Lcore
+                        <!-- <img class="navbar-brand-logo" src="./images/L.png" alt="Image Description" width="160px"> -->
                     </a>
                     <!-- List -->
                     <ul class="list-unstyled list-py-1">
-                        <li><a class="link-sm link-light text_decoration" href="#"><i class="bi-geo-alt-fill me-1"></i> 153 Williamson
+                        <li><a class="link-sm link-light text_decoration" href="#"><i class="bi-geo-alt-fill me-1"></i>
+                                153 Williamson
                                 Plaza, City-Center</a></li>
                         <li><a class="link-sm link-light text_decoration" href="tel:1-062-109-9222"><i
                                     class="bi-telephone-inbound-fill me-1"></i> +91 (033) 109-9222</a></li>
@@ -74,22 +76,20 @@
 
                 <!-- List -->
                 <ul class="list-unstyled list-py-1 mb-5">
-                    <li><a class="link-sm link-light text_decoration" href="#"><i class="bi-question-circle-fill me-1"></i> Help</a>
+                    <li><a class="link-sm link-light text_decoration" href="#"><i
+                                class="bi-question-circle-fill me-1"></i> Help</a>
                     </li>
-                    <li><a class="link-sm link-light text_decoration" href="#"><i class="bi-person-circle me-1"></i> Your Account</a>
+                    <li><a class="link-sm link-light text_decoration" href="#"><i class="bi-person-circle me-1"></i>
+                            Your Account</a>
                     </li>
                 </ul>
                 <!-- End List -->
             </div>
             <!-- End Col -->
-            <div class="row align-items-center">
-                <!-- for border -->
-                <div class="border-top"></div>
+            <div class="row">
+
                 <!-- Widget -->
                 <div class="text-center mt-5">
-                    <div class="text-body-secondary text-primary-hover text-white"> Copyrights ©2024 Booking. Build by
-                        <a href="https://www.webestica.com/" class="text-body-secondary">Webestica</a>
-                    </div>
                     <div class="icons">
                         <ul class="icon-items">
                             <li class="icon-item"><a href="#"><i class="text-white fab fa-facebook"></i></a></li>
@@ -98,7 +98,11 @@
                             <li class="icon-item"><a href="#"><i class="text-white fab fa-twitter"></i></a></li>
                         </ul>
                     </div>
-
+                    <!-- for border -->
+                    <div class="border-top"></div>
+                    <div class="text-body-secondary text-primary-hover text-dark"> Copyrights ©2024 Booking. Build by
+                        <a href="https://www.google.com/" class="text-body-secondary">Sanchaita</a>
+                    </div>
                 </div>
             </div>
         </div>

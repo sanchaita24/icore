@@ -17,12 +17,21 @@
  </head>
 
  <style>
-    body{
-         overflow-x: hidden;
-    }
+body {
+    overflow-x: hidden;
+}
+
+.cards{
+    margin:4rem;
+}
+.success{
+    /* margin:2rem; */
+}
 .card {
     height: 25rem;
 }
+
+
  </style>
 
  <body>
@@ -30,7 +39,7 @@
 
      <!-- course buttons -->
      <div class="course-part mt-5">
-         <h1>Explore Roles</h1>
+         <h1>Explore Course</h1>
          <p class="para">Advance in your career with recognized credentials across levels.
          </p>
          <div class="course-btn">
@@ -49,7 +58,7 @@
          <!-- first -->
          <div class="row">
              <div class="col-md-3">
-                 <div class="card" style="width: 18rem;">
+                 <div class="card  overflow-hidden rounded-5" style="width: 18rem;">
                      <img src="https://media.istockphoto.com/id/1488105257/photo/chatbot-powered-by-ai-transforming-industries-and-customer-service-yellow-chatbot-icon-over.jpg?s=1024x1024&w=is&k=20&c=Q4raY3uxy-_J15PgbIfOzIhndHkCQ-UFSkxVDBitJcI="
                          class="card-img-top" height="70%" alt="card1">
                      <div class="card-body">
@@ -62,7 +71,7 @@
                  </div>
              </div>
              <div class="col-md-3">
-                 <div class="card" style="width: 18rem;">
+                 <div class="card  overflow-hidden rounded-5" style="width: 18rem;">
                      <img src="https://media.istockphoto.com/id/1343499203/photo/lock-data-concept.jpg?s=1024x1024&w=is&k=20&c=gyh18XcZSgXHYlimy5EpH0iVro5oBqmIeybKbgcIXWk="
                          class="card-img-top" alt="card2">
                      <div class="card-body">
@@ -76,7 +85,7 @@
              </div>
 
              <div class="col-md-3">
-                 <div class="card" style="width: 18rem;">
+                 <div class="card  overflow-hidden rounded-5" style="width: 18rem;">
                      <img src="https://media.istockphoto.com/id/1448152453/vector/big-data-technology-and-data-science-illustration-data-flow-concept-querying-analysing.jpg?s=1024x1024&w=is&k=20&c=INMsT5od0nLuKgWn0y_1UkzhuJL_LDs7yF3aZh-_dqY="
                          class="card-img-top" alt="card3">
                      <div class="card-body">
@@ -90,7 +99,7 @@
                  </div>
              </div>
              <div class="col-md-3">
-                 <div class="card" style="width: 18rem;">
+                 <div class="card  overflow-hidden rounded-5" style="width: 18rem;">
                      <img src="https://media.istockphoto.com/id/1500238408/photo/program-code-development-icon-on-a-digital-lcd-display-with-reflection.jpg?s=1024x1024&w=is&k=20&c=9k0ISvEy4At1nzoYrDP-pwOyN5qyvOWf_MruUHANUKc="
                          class="card-img-top" alt="card4">
                      <div class="card-body">
@@ -108,7 +117,7 @@
      <div class="cards" id="analytical">
          <div class="row">
              <div class="col-md-3">
-                 <div class="card" style="width: 18rem;">
+                 <div class="card  overflow-hidden rounded-5" style="width: 18rem;">
                      <img src="https://media.istockphoto.com/id/1488105257/photo/chatbot-powered-by-ai-transforming-industries-and-customer-service-yellow-chatbot-icon-over.jpg?s=1024x1024&w=is&k=20&c=Q4raY3uxy-_J15PgbIfOzIhndHkCQ-UFSkxVDBitJcI="
                          class="card-img-top" height="70%" alt="card1">
                      <div class="card-body">
@@ -121,7 +130,7 @@
                  </div>
              </div>
              <div class="col-md-3">
-                 <div class="card" style="width: 18rem;">
+                 <div class="card  overflow-hidden rounded-5" style="width: 18rem;">
                      <img src="https://media.istockphoto.com/id/1343499203/photo/lock-data-concept.jpg?s=1024x1024&w=is&k=20&c=gyh18XcZSgXHYlimy5EpH0iVro5oBqmIeybKbgcIXWk="
                          class="card-img-top" alt="card2">
                      <div class="card-body">
@@ -135,7 +144,7 @@
              </div>
 
              <div class="col-md-3">
-                 <div class="card" style="width: 18rem;">
+                 <div class="card  overflow-hidden rounded-5" style="width: 18rem;">
                      <img src="https://media.istockphoto.com/id/1448152453/vector/big-data-technology-and-data-science-illustration-data-flow-concept-querying-analysing.jpg?s=1024x1024&w=is&k=20&c=INMsT5od0nLuKgWn0y_1UkzhuJL_LDs7yF3aZh-_dqY="
                          class="card-img-top" alt="card3">
                      <div class="card-body">
@@ -149,7 +158,7 @@
                  </div>
              </div>
              <div class="col-md-3">
-                 <div class="card" style="width: 18rem;">
+                 <div class="card  overflow-hidden rounded-5" style="width: 18rem;">
                      <img src="https://media.istockphoto.com/id/1500238408/photo/program-code-development-icon-on-a-digital-lcd-display-with-reflection.jpg?s=1024x1024&w=is&k=20&c=9k0ISvEy4At1nzoYrDP-pwOyN5qyvOWf_MruUHANUKc="
                          class="card-img-top" alt="card4">
                      <div class="card-body">
@@ -169,7 +178,7 @@
      <div class="cards" id="business">
          <div class="row">
              <div class="col-md-3">
-                 <div class="card" style="width: 18rem;">
+                 <div class="card  overflow-hidden rounded-5" style="width: 18rem;">
                      <img src="https://media.istockphoto.com/id/1488105257/photo/chatbot-powered-by-ai-transforming-industries-and-customer-service-yellow-chatbot-icon-over.jpg?s=1024x1024&w=is&k=20&c=Q4raY3uxy-_J15PgbIfOzIhndHkCQ-UFSkxVDBitJcI="
                          class="card-img-top" height="70%" alt="card1">
                      <div class="card-body">
@@ -182,7 +191,7 @@
                  </div>
              </div>
              <div class="col-md-3">
-                 <div class="card" style="width: 18rem;">
+                 <div class="card  overflow-hidden rounded-5" style="width: 18rem;">
                      <img src="https://media.istockphoto.com/id/1343499203/photo/lock-data-concept.jpg?s=1024x1024&w=is&k=20&c=gyh18XcZSgXHYlimy5EpH0iVro5oBqmIeybKbgcIXWk="
                          class="card-img-top" alt="card2">
                      <div class="card-body">
@@ -196,7 +205,7 @@
              </div>
 
              <div class="col-md-3">
-                 <div class="card" style="width: 18rem;">
+                 <div class="card  overflow-hidden rounded-5" style="width: 18rem;">
                      <img src="https://media.istockphoto.com/id/1448152453/vector/big-data-technology-and-data-science-illustration-data-flow-concept-querying-analysing.jpg?s=1024x1024&w=is&k=20&c=INMsT5od0nLuKgWn0y_1UkzhuJL_LDs7yF3aZh-_dqY="
                          class="card-img-top" alt="card3">
                      <div class="card-body">
@@ -210,7 +219,7 @@
                  </div>
              </div>
              <div class="col-md-3">
-                 <div class="card" style="width: 18rem;">
+                 <div class="card  overflow-hidden rounded-5" style="width: 18rem;">
                      <img src="https://media.istockphoto.com/id/1500238408/photo/program-code-development-icon-on-a-digital-lcd-display-with-reflection.jpg?s=1024x1024&w=is&k=20&c=9k0ISvEy4At1nzoYrDP-pwOyN5qyvOWf_MruUHANUKc="
                          class="card-img-top" alt="card4">
                      <div class="card-body">
@@ -227,17 +236,17 @@
 
      <!-- success story -->
 
-     <div class="success">
-         <h3 class="mt-0 mx-5">Success Storyes</h3>
-         <div class="row mt-3">
+     <div class="success p-5">
+         <h3 class="mb-3 mx-5">Success Storyes</h3>
+         <div class="row">
              <div class="col-md-3">
                  <div class="card success-story" style="width: 18rem; height:22rem;">
-                     <div class="csuser-img mx-3"><img
+                     <div class="csuser-img mx-3 mt-3"><img
                              src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/69BoexTdu34VSQSlrBSCsg/085800d62591bfe9fcd09d1ef35a092b/rachel-ux-design-cert.2e16d0ba.fill-450x450.format-webp.webp?auto=format%2Ccompress&amp;dpr=1&amp;w=64&amp;h=64&amp;fit=crop"
                              srcset="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/69BoexTdu34VSQSlrBSCsg/085800d62591bfe9fcd09d1ef35a092b/rachel-ux-design-cert.2e16d0ba.fill-450x450.format-webp.webp?auto=format%2Ccompress&amp;dpr=2&amp;w=64&amp;h=64&amp;fit=crop 2x, https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/69BoexTdu34VSQSlrBSCsg/085800d62591bfe9fcd09d1ef35a092b/rachel-ux-design-cert.2e16d0ba.fill-450x450.format-webp.webp?auto=format%2Ccompress&amp;dpr=3&amp;w=64&amp;h=64&amp;fit=crop 3x"
                              class="rounded-circle" style="max-width:64px;max-height:64px" alt="">
                          <div>
-                             <div class="css-1rlln5c">Rachel L.</div>
+                             <div class="css-1rlln5c"><strong>Rachel L.</strong></div>
                              <div class="css-vac8rf">Google UX Design Professional Certificate</div>
                          </div>
                      </div>
@@ -253,12 +262,12 @@
 
              <div class="col-md-3">
                  <div class="card success-story" style="width: 18rem; height:22rem;">
-                     <div class="csuser-img mx-3"><img
+                     <div class="csuser-img mx-3 mt-3"><img
                              src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/69BoexTdu34VSQSlrBSCsg/085800d62591bfe9fcd09d1ef35a092b/rachel-ux-design-cert.2e16d0ba.fill-450x450.format-webp.webp?auto=format%2Ccompress&amp;dpr=1&amp;w=64&amp;h=64&amp;fit=crop"
                              srcset="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/69BoexTdu34VSQSlrBSCsg/085800d62591bfe9fcd09d1ef35a092b/rachel-ux-design-cert.2e16d0ba.fill-450x450.format-webp.webp?auto=format%2Ccompress&amp;dpr=2&amp;w=64&amp;h=64&amp;fit=crop 2x, https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/69BoexTdu34VSQSlrBSCsg/085800d62591bfe9fcd09d1ef35a092b/rachel-ux-design-cert.2e16d0ba.fill-450x450.format-webp.webp?auto=format%2Ccompress&amp;dpr=3&amp;w=64&amp;h=64&amp;fit=crop 3x"
                              class="rounded-circle" style="max-width:64px;max-height:64px" alt="">
                          <div>
-                             <div class="css-1rlln5c">LUC</div>
+                             <div class="css-1rlln5c"><strong>LUC</strong></div>
                              <div class="css-vac8rf">Google UX Design Professional Certificate</div>
                          </div>
                      </div>
@@ -274,12 +283,12 @@
 
              <div class="col-md-3">
                  <div class="card success-story" style="width: 18rem; height:22rem;">
-                     <div class="csuser-img mx-3"><img
+                     <div class="csuser-img mx-3 mt-3"><img
                              src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/2GzoqJoB4jZsOOmUM2anRV/5c5f2c1c3eb93b971b2eb15ff95d0717/luc-ux-design-certifi.2e16d0ba.fill-450x450.format-webp.webp?auto=format%2Ccompress&amp;dpr=1&amp;w=64&amp;h=64&amp;fit=crop"
                              srcset="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/2GzoqJoB4jZsOOmUM2anRV/5c5f2c1c3eb93b971b2eb15ff95d0717/luc-ux-design-certifi.2e16d0ba.fill-450x450.format-webp.webp?auto=format%2Ccompress&amp;dpr=2&amp;w=64&amp;h=64&amp;fit=crop 2x, https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/2GzoqJoB4jZsOOmUM2anRV/5c5f2c1c3eb93b971b2eb15ff95d0717/luc-ux-design-certifi.2e16d0ba.fill-450x450.format-webp.webp?auto=format%2Ccompress&amp;dpr=3&amp;w=64&amp;h=64&amp;fit=crop 3x"
                              class="rounded-circle" style="max-width:64px;max-height:64px" alt=""">
                          <div>
-                             <div class=" css-1rlln5c">LUC</div>
+                             <div class=" css-1rlln5c"><strong>LUC</strong></div>
                      <div class="css-vac8rf">Google UX Design Professional Certificate</div>
                  </div>
              </div>
@@ -295,12 +304,12 @@
 
      <div class="col-md-3">
          <div class="card success-story" style="width: 18rem; height:22rem;">
-             <div class="user-img mx-3"><img
+             <div class="user-img mx-3 mt-3"><img
                      src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/69BoexTdu34VSQSlrBSCsg/085800d62591bfe9fcd09d1ef35a092b/rachel-ux-design-cert.2e16d0ba.fill-450x450.format-webp.webp?auto=format%2Ccompress&amp;dpr=1&amp;w=64&amp;h=64&amp;fit=crop"
                      srcset="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/69BoexTdu34VSQSlrBSCsg/085800d62591bfe9fcd09d1ef35a092b/rachel-ux-design-cert.2e16d0ba.fill-450x450.format-webp.webp?auto=format%2Ccompress&amp;dpr=2&amp;w=64&amp;h=64&amp;fit=crop 2x, https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/69BoexTdu34VSQSlrBSCsg/085800d62591bfe9fcd09d1ef35a092b/rachel-ux-design-cert.2e16d0ba.fill-450x450.format-webp.webp?auto=format%2Ccompress&amp;dpr=3&amp;w=64&amp;h=64&amp;fit=crop 3x"
                      class="rounded-circle" style="max-width:64px;max-height:64px" alt="">
                  <div>
-                     <div class="css-1rlln5c">Rachel L.</div>
+                     <div class="css-1rlln5c"><strong>Rachel L.</strong></div>
                      <div class="css-vac8rf">Google UX Design Professional Certificate</div>
                  </div>
              </div>

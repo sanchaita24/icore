@@ -19,25 +19,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
     <style>
-    /* .all_course,
-    .cards {
-        display: flex;
-        gap: 2rem;
-        flex-wrap: wrap;
-        margin: 0 11px;
+        .all_course {
+            display: flex;
+            /* gap: 2rem; */
+            /* flex-wrap: wrap; */
+            /* margin: 0 11px; */
 
-    }
+        }
 
-    .card {
-        flex-grow: 1;
-        flex-shrink: 1;
-        flex-basis: 0%;
-    }
+        /* .card {
+            flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: 0%;
+        }
 
-    .cards {
-        margin: 32px auto;
-    } */
- 
+        .cards {
+            margin: 32px auto;
+        } */
+         .forth {
+    width: 88%;
+    height: 66%;
+    background: red;
+    border: 1px solid black;
+  display: grid;
+  place-self: center;
+}
+
     </style>
 </head>
 
@@ -45,6 +52,82 @@
 
     <?php include "layout/hero_nav.php";?>
     <?php include "layout/nav.php" ;?>
+
+    <!-- hero part -->
+    <div class="hero_section">
+        <ul class="nav justify-content-evenly w-100">
+            <li class="nav-item">
+                <a class="nav-link text-dark active" aria-current="page" href="#"><i class="fas fa-map-marker-alt"></i>
+                    457-Mott Street, NY 5001</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#"><i class="fas fa-phone-volume"></i> +11 212-226-3126</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#"><i class="fa fa-envelope me-1 mx-1"></i> lcore@gmail.com</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link text-dark"><i class="fas fa-shopping-cart"></i></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link text-dark" href="#"><button class="btn btn-outline-success ms-2"
+                        id="enroll-btn">Enroll Now</button></a>
+            </li>
+        </ul>
+    </div>
+
+    <nav class="navbar navbar-expand-lg" style="background: #b1cde5c2; backdrop-filter: blur(8px);" id="navber">
+        <!-- fixed-top shadow-sm -->
+        <div class="container-fluid">
+            <a class="navbar-brand text-dark fw-bold fs-4" href="index.php">
+                LCORE
+            </a>
+            <!-- <i class="fa fa-laptop-code me-2"></i> -->
+            <button class="navbar-toggler text-dark" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark active navitem px-3" href="#"><i class="fa fa-home me-1"></i>
+                            Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark px-3 navitem" href="#"><i class="fa fa-user me-1"></i> About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark px-3 navitem" href="#"><i class="fa fa-blog me-1"></i> Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark px-3 navitem" href="course.php"><i
+                                class="fa fa-book-open me-1"></i>
+                            Course</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark px-3 navitem" href="contact.php"><i
+                                class="fa fa-envelope me-1"></i>
+                            Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <div class="input-group">
+                        <input class="form-control rounded-start-pill" id="search" type="search" placeholder="Search..."
+                            aria-label="Search" />
+                        <button class="btn btn-outline-success rounded-end-pill" type="submit" id="search_btn">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+
     <div class="container11">
 
         <div class="slide_box">
@@ -170,113 +253,156 @@
     <!-- course cards -->
     <h2 class="text-center mt-5">COURSES</h2>
     <section class="all_course">
-        <div class="cards">
-            <div class="card overflow-hidden rounded-5" style="width: 18rem;height: 24rem;">
-                <img src="https://media.istockphoto.com/id/1488105257/photo/chatbot-powered-by-ai-transforming-industries-and-customer-service-yellow-chatbot-icon-over.jpg?s=1024x1024&w=is&k=20&c=Q4raY3uxy-_J15PgbIfOzIhndHkCQ-UFSkxVDBitJcI="
-                    class="card-img-top" height="70%" alt="card1">
-                <div class="card-body">
-                    <h5 class="card-title"><a href="course.php" class="text_style">Android Development</a></h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card’s content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
 
-            <div class="card overflow-hidden rounded-5" style="width: 18rem;">
-                <img src="https://media.istockphoto.com/id/1343499203/photo/lock-data-concept.jpg?s=1024x1024&w=is&k=20&c=gyh18XcZSgXHYlimy5EpH0iVro5oBqmIeybKbgcIXWk="
-                    class="card-img-top" alt="card2">
-                <div class="card-body">
-                    <h5 class="card-title"><a href="course.php" class="text_style">Cyber Sequrity</a></h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card’s content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                <!-- Card 1 -->
+                <div class="col">
+                    <div class="card h-100 overflow-hidden rounded-4 shadow">
+                        <img src="https://media.istockphoto.com/id/1488105257/photo/chatbot-powered-by-ai-transforming-industries-and-customer-service-yellow-chatbot-icon-over.jpg?s=1024x1024&w=is&k=20&c=Q4raY3uxy-_J15PgbIfOzIhndHkCQ-UFSkxVDBitJcI="
+                            class="card-img-top" alt="Android Development">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="course.php" class="text-decoration-none">Android Development</a>
+                            </h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
 
-            <div class="card overflow-hidden rounded-5" style="width: 18rem;">
-                <img src="https://media.istockphoto.com/id/1448152453/vector/big-data-technology-and-data-science-illustration-data-flow-concept-querying-analysing.jpg?s=1024x1024&w=is&k=20&c=INMsT5od0nLuKgWn0y_1UkzhuJL_LDs7yF3aZh-_dqY="
-                    class="card-img-top" alt="card3" height="190px">
-                <div class="card-body">
-                    <h5 class="card-title"><a href="course.php" class="text_style">Data structure & Algorithm</a></h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card’s content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                <!-- Card 2 -->
+                <div class="col">
+                    <div class="card h-100 overflow-hidden rounded-4 shadow">
+                        <img src="https://media.istockphoto.com/id/1343499203/photo/lock-data-concept.jpg?s=1024x1024&w=is&k=20&c=gyh18XcZSgXHYlimy5EpH0iVro5oBqmIeybKbgcIXWk="
+                            class="card-img-top" alt="Cyber Security">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="course.php" class="text-decoration-none">Cyber Security</a>
+                            </h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
 
-            <div class="card overflow-hidden rounded-5" style="width: 18rem;">
-                <img src="https://media.istockphoto.com/id/1500238408/photo/program-code-development-icon-on-a-digital-lcd-display-with-reflection.jpg?s=1024x1024&w=is&k=20&c=9k0ISvEy4At1nzoYrDP-pwOyN5qyvOWf_MruUHANUKc="
-                    class="card-img-top" alt="card4">
-                <div class="card-body">
-                    <h5 class="card-title"><a href="course.php" class="text_style">HTML & CSS</a></h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card’s content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                <!-- Card 3 -->
+                <div class="col">
+                    <div class="card h-100 overflow-hidden rounded-4 shadow">
+                        <img src="https://media.istockphoto.com/id/1448152453/vector/big-data-technology-and-data-science-illustration-data-flow-concept-querying-analysing.jpg?s=1024x1024&w=is&k=20&c=INMsT5od0nLuKgWn0y_1UkzhuJL_LDs7yF3aZh-_dqY="
+                            class="card-img-top" alt="Data Structures">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="course.php" class="text-decoration-none">Data Structures & Algorithm</a>
+                            </h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <!-- again repet course cards -->
 
-        <div class="cards">
-            <div class="card overflow-hidden rounded-5" style="width: 18rem;height: 24rem;">
-                <img src="https://media.istockphoto.com/id/1488105257/photo/chatbot-powered-by-ai-transforming-industries-and-customer-service-yellow-chatbot-icon-over.jpg?s=1024x1024&w=is&k=20&c=Q4raY3uxy-_J15PgbIfOzIhndHkCQ-UFSkxVDBitJcI="
-                    class="card-img-top" height="70%" alt="card1">
-                <div class="card-body">
-                    <h5 class="card-title"><a href="course.php" class="text_style">Android Development</a></h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card’s content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                <!-- Card 4 -->
+                <div class="col">
+                    <div class="card h-100 overflow-hidden rounded-4 shadow">
+                        <img src="https://media.istockphoto.com/id/1500238408/photo/program-code-development-icon-on-a-digital-lcd-display-with-reflection.jpg?s=1024x1024&w=is&k=20&c=9k0ISvEy4At1nzoYrDP-pwOyN5qyvOWf_MruUHANUKc="
+                            class="card-img-top" alt="HTML & CSS">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="course.php" class="text-decoration-none">HTML & CSS</a>
+                            </h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
 
-            <div class="card overflow-hidden rounded-5" style="width: 18rem;">
-                <img src="https://media.istockphoto.com/id/1343499203/photo/lock-data-concept.jpg?s=1024x1024&w=is&k=20&c=gyh18XcZSgXHYlimy5EpH0iVro5oBqmIeybKbgcIXWk="
-                    class="card-img-top" alt="card2">
-                <div class="card-body">
-                    <h5 class="card-title"><a href="course.php" class="text_style">Cyber Sequrity</a></h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card’s content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                <!-- Repeat more cards here -->
+
+                <!-- Card 1 -->
+                <div class="col">
+                    <div class="card h-100 overflow-hidden rounded-4 shadow">
+                        <img src="https://media.istockphoto.com/id/1488105257/photo/chatbot-powered-by-ai-transforming-industries-and-customer-service-yellow-chatbot-icon-over.jpg?s=1024x1024&w=is&k=20&c=Q4raY3uxy-_J15PgbIfOzIhndHkCQ-UFSkxVDBitJcI="
+                            class="card-img-top" alt="Android Development">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="course.php" class="text-decoration-none">Android Development</a>
+                            </h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
 
-            <div class="card overflow-hidden rounded-5" style="width: 18rem;">
-                <img src="https://media.istockphoto.com/id/1448152453/vector/big-data-technology-and-data-science-illustration-data-flow-concept-querying-analysing.jpg?s=1024x1024&w=is&k=20&c=INMsT5od0nLuKgWn0y_1UkzhuJL_LDs7yF3aZh-_dqY="
-                    class="card-img-top" alt="card3" height="190px">
-                <div class="card-body">
-                    <h5 class="card-title"><a href="course.php" class="text_style">Data structure & Algorithm</a>
-                    </h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card’s content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                <!-- Card 2 -->
+                <div class="col">
+                    <div class="card h-100 overflow-hidden rounded-4 shadow">
+                        <img src="https://media.istockphoto.com/id/1343499203/photo/lock-data-concept.jpg?s=1024x1024&w=is&k=20&c=gyh18XcZSgXHYlimy5EpH0iVro5oBqmIeybKbgcIXWk="
+                            class="card-img-top" alt="Cyber Security">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="course.php" class="text-decoration-none">Cyber Security</a>
+                            </h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
 
-            <div class="card overflow-hidden rounded-5" style="width: 18rem;">
-                <img src="https://media.istockphoto.com/id/1500238408/photo/program-code-development-icon-on-a-digital-lcd-display-with-reflection.jpg?s=1024x1024&w=is&k=20&c=9k0ISvEy4At1nzoYrDP-pwOyN5qyvOWf_MruUHANUKc="
-                    class="card-img-top" alt="card4">
-                <div class="card-body">
-                    <h5 class="card-title"><a href="course.php" class="text_style">HTML & CSS</a></h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                        the
-                        card’s content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                <!-- Card 3 -->
+                <div class="col">
+                    <div class="card h-100 overflow-hidden rounded-4 shadow">
+                        <img src="https://media.istockphoto.com/id/1448152453/vector/big-data-technology-and-data-science-illustration-data-flow-concept-querying-analysing.jpg?s=1024x1024&w=is&k=20&c=INMsT5od0nLuKgWn0y_1UkzhuJL_LDs7yF3aZh-_dqY="
+                            class="card-img-top" alt="Data Structures">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="course.php" class="text-decoration-none">Data Structures & Algorithm</a>
+                            </h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="col">
+                    <div class="card h-100 overflow-hidden rounded-4 shadow">
+                        <img src="https://media.istockphoto.com/id/1500238408/photo/program-code-development-icon-on-a-digital-lcd-display-with-reflection.jpg?s=1024x1024&w=is&k=20&c=9k0ISvEy4At1nzoYrDP-pwOyN5qyvOWf_MruUHANUKc="
+                            class="card-img-top" alt="HTML & CSS">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="course.php" class="text-decoration-none">HTML & CSS</a>
+                            </h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+
+
+
+
     <!--  section for video -->
     <section class="secound">
         <div class="container_video p-5">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-
                     <!-- Slide 1 -->
                     <div class="carousel-item active">
-                        <div class="row align-items-center">
+                        <div class="row align-items-center p-5">
                             <div class="col-md-6">
                                 <video controls autoplay muted class="w-100">
                                     <source
@@ -431,24 +557,23 @@
     <!-- finish part -->
     <section class="forth">
         <div class="row">
-            <div class="col-md-6">
-                <h3 class="text-center"><strong>Take the next step toward your personal and professional goals with
-                        Lcore.</strong></h3>
-                <p class="brand_text text-center mx-5">Train teams with industry-leading experts and universities,
-                    enhanced
-                    by AI
-                    tools and
-                    recognized credentials.
-                    Join now to receive personalized recommendations from the full Coursera catalog.
-                    Join now to receive personalized recommendations from the full Coursera catalog.</p>
-                <button class="brand_btn btn btn-primary">Join For Free</button>
-            </div>
-            <div class="col-md-6">
-                <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/front-page-rebrand/secondary-consumer-cta/Image-Next-Step.png?auto=format%2Ccompress&amp;dpr=1&amp;w=471&amp;h=330&amp;q=40"
-                    srcset="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/front-page-rebrand/secondary-consumer-cta/Image-Next-Step.png?auto=format%2Ccompress&amp;dpr=2&amp;w=471&amp;h=330&amp;q=40 2x, https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/front-page-rebrand/secondary-consumer-cta/Image-Next-Step.png?auto=format%2Ccompress&amp;dpr=3&amp;w=471&amp;h=330&amp;q=40 3x"
-                    class="css-1asb01x" alt="A lady standing in front of a meeting table"
-                    style="max-width: 471px; max-height: 330px;" alt="employee">
-            </div>
+        <div class="col-md-6">
+            <h3 class="text-center"><strong>Take the next step toward your personal and professional goals with
+                    Lcore.</strong></h3>
+            <p class="brand_text text-center mx-5">Train teams with industry-leading experts and universities, enhanced
+                by AI
+                tools and
+                recognized credentials.
+                Join now to receive personalized recommendations from the full Coursera catalog.
+                Join now to receive personalized recommendations from the full Coursera catalog.</p>
+            <button class="brand_btn btn btn-primary">Join For Free</button>
+        </div>
+        <div class="col-md-6">
+            <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/front-page-rebrand/secondary-consumer-cta/Image-Next-Step.png?auto=format%2Ccompress&amp;dpr=1&amp;w=471&amp;h=330&amp;q=40"
+                srcset="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/front-page-rebrand/secondary-consumer-cta/Image-Next-Step.png?auto=format%2Ccompress&amp;dpr=2&amp;w=471&amp;h=330&amp;q=40 2x, https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera_assets.s3.amazonaws.com/front-page-rebrand/secondary-consumer-cta/Image-Next-Step.png?auto=format%2Ccompress&amp;dpr=3&amp;w=471&amp;h=330&amp;q=40 3x"
+                class="css-1asb01x" alt="A lady standing in front of a meeting table"
+                style="max-width: 471px; max-height: 330px;" alt="employee">
+        </div>
         </div>
     </section>
 
@@ -507,7 +632,7 @@
     </div>
 
     <!-- Footer -->
-    <div class="footer mt-5">
+    <div class="footer">
         <?php include "layout/footer.php" ;?>
     </div>
 
